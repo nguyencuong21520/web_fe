@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <Link to="/" className="nav-logo">MindX Hello</Link>
+        <Link to="/" className="nav-logo">MindX Bye Bye</Link>
         <div className="nav-links">
           <Link to="/" className={isActive('/')}>Trang chủ</Link>
           <Link to="/courses" className={isActive('/courses')}>Khóa học</Link>
