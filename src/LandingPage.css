@@ -18,6 +18,24 @@
   --radius-md: 12px;
   --radius-lg: 16px;
   --radius-xl: 24px;
+  --navbar-bg: rgba(255, 255, 255, 0.95);
+  --badge-bg: #DBEAFE;
+}
+
+[data-theme='dark'] {
+  --primary: #3B82F6;
+  --primary-dark: #60A5FA;
+  --secondary: #2563EB;
+  --accent: #FB923C;
+  --accent-dark: #F97316;
+  --background: #0F172A;
+  --surface: #1E293B;
+  --text: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --border: #334155;
+  --success: #22C55E;
+  --navbar-bg: rgba(15, 23, 42, 0.95);
+  --badge-bg: rgba(37, 99, 235, 0.2);
 }
 
 * {
@@ -120,7 +138,7 @@ body {
 
 .hero-badge {
   display: inline-block;
-  background: #DBEAFE;
+  background: var(--badge-bg);
   color: var(--primary);
   padding: 8px 16px;
   border-radius: 50px;
